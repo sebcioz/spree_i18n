@@ -139,8 +139,8 @@ pl:
         name: Name
     models: 
       address: 
-        one: Address
-        other: Addresses
+        one: "Adres"
+        other: "Adresy"
       cheque_payment: 
         one: Cheque Payment
         other: Cheque Payments
@@ -358,7 +358,7 @@ pl:
   debit: Debit
   default: Default
   delete: Skasuj
-  delivery: Delivery
+  delivery: "Dostarczenie"
   depth: Depth
   description: Opis
   destroy: Usuń
@@ -390,7 +390,7 @@ pl:
   email: Email
   email_address: "Adres email"
   email_server_settings_description: "Skonfiguruj ustawienia serwera pocztowego."
-  empty: "Empty"
+  empty: "Pusty"
   empty_cart: "Opróżnij koszyk"
   enable_login_via_login_password: "Use standard email/password"
   enable_login_via_openid: "Use OpenID instead"
@@ -453,7 +453,7 @@ pl:
   height: Height
   hello_user: "Witaj użytkowniku"
   history: History
-  home: "Home"
+  home: "Strona główna"
   icon: "Icon"
   icons_by: "Icons by"
   image: Obrazek
@@ -510,7 +510,7 @@ pl:
   login_failed: "Login authentication failed."
   login_name: Login
   logout: Wyloguj
-  look_for_similar_items: Look for similar items
+  look_for_similar_items: "Podobne produkty"
   maestro_or_solo_cards: Maestro/Solo cards
   mail_delivery_enabled: "Mail delivery is enabled"
   mail_delivery_not_enabled: "Mail delivery is not enabled"
@@ -528,7 +528,7 @@ pl:
   missing_required_information: "Missing Required Information"
   month: "Month"
   my_account: "Moje konto"
-  my_orders: "My Orders"
+  my_orders: "Moje zamówienia"
   name: Name
   name_or_sku: "Name or SKU"
   new: New
@@ -611,15 +611,15 @@ pl:
   order_processed_successfully: "Twoje zamówienie zostało pomyślnie przetworzone"
   order_state: # keys correspond to Checkout state names:
     # keys correspond to Checkout state names: 
-    address: address
+    address: "Adres"
     adjustments: adjustments
     awaiting_return: awaiting return
     canceled: canceled
     cart: cart
-    complete: complete
+    complete: "Zakończenie"
     confirm: confirm
-    delivery: delivery
-    payment: payment
+    delivery: "Transport"
+    payment: "Płatność"
     resumed: resumed
     returned: returned
   order_summary: Order Summary
@@ -653,16 +653,16 @@ pl:
   payment_methods: Payment Methods
   payment_methods_setting_description: Configure methods customers can use to pay
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
-  payment_state: Payment State
+  payment_state: "Status płatności"
   payment_states: 
     balance_due: balance due
-    checkout: checkout
-    completed: completed
-    credit_owed: credit owed
-    failed: failed
-    paid: paid
-    pending: pending
-    processing: processing
+    checkout: "płatność"
+    completed: "zakończona"
+    credit_owed: credit owe
+    failed: "nieudana"
+    paid: "zapłacone"
+    pending: "oczekująca"
+    processing: "w trakcie realizacji"
     void: void
   payment_updated: Payment Updated
   payments: Payments
@@ -885,7 +885,7 @@ pl:
   sales_tax: "Sales Tax"
   sales_total: "Sales Total"
   sales_total_description: "Sales Total For All Orders"
-  save_and_continue: Save and Continue
+  save_and_continue: "Zapisz i kontynuuj Save and Continue
   save_preferences: Save Preferences
   scope: Scope
   scopes: Scopes
@@ -913,13 +913,13 @@ pl:
     shipped_email: 
       subject: "Shipment Notification"
   shipment_number: "Shipment #"
-  shipment_state: Shipment State
+  shipment_state: "Status doręczenia"
   shipment_states: 
     backorder: backorder
     partial: partial
-    pending: pending
-    ready: ready
-    shipped: shipped
+    pending: "oczekująca"
+    ready: "gotowa"
+    shipped: "dostarczona"
   shipment_updated: Shipment Updated
   shipments: "Shipments"
   shipped: Shipped
@@ -935,7 +935,7 @@ pl:
   shipping_methods: "Shipping Methods"
   shipping_methods_description: "Manage shipping methods"
   shipping_total: "Koszt dostawy"
-  shop_by_taxonomy: "Shop by %{taxonomy}"
+  shop_by_taxonomy: "Wybierz %{taxonomy}"
   shopping_cart: Koszyk
   show: Show
   show_active: "Show Active"
