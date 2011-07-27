@@ -616,7 +616,7 @@ pl:
     awaiting_return: awaiting return
     canceled: canceled
     cart: cart
-    complete: "Zakończenie"
+    complete: complete
     confirm: confirm
     delivery: "Transport"
     payment: "Płatność"
@@ -885,7 +885,7 @@ pl:
   sales_tax: "Sales Tax"
   sales_total: "Sales Total"
   sales_total_description: "Sales Total For All Orders"
-  save_and_continue: "Zapisz i kontynuuj Save and Continue
+  save_and_continue: "Zapisz i kontynuuj"
   save_preferences: Save Preferences
   scope: Scope
   scopes: Scopes
